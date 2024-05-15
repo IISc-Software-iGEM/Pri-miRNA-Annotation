@@ -1,5 +1,6 @@
 from seqfold import fold, dot_bracket
 import json
+import os
 import sys
 sys.setrecursionlimit(1000000)
 
@@ -67,6 +68,9 @@ rna_transcripts = [to_rna(transcript) for transcript in transcripts]
 i = 0
 for transcript in rna_transcripts:
     folded_transcript = fold(transcript)
+    
+    # create a directory folded/{i}
+    os.makedirs(f"folded/{i}", exist_ok=True)
     
     # save to file folded/{i}/fold
     with open(f"folded/{i}/fold", "w") as f:
