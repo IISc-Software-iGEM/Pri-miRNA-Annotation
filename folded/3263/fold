@@ -1,0 +1,9 @@
+   5   34   -2.4  STACK:CG/GC    
+   6   33   -2.2  STACK:GU/CA    
+   7   32   -4.9  STACK:UGC/AUG  
+   9   30   -2.4  STACK:CG/GC    
+  10   29   -3.4  STACK:GC/CG    
+  11   28   -2.4  STACK:CG/GC    
+  12   27    1.5  INTERIOR_LOOP:6/2
+  18   25   -2.2  STACK:GU/CA    
+  19   24    4.8  HAIRPIN:UG/AU  
