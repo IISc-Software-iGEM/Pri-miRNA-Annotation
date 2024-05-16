@@ -1,0 +1,13 @@
+   0   46   -4.6  STACK_DE:GC/CG 
+   1   45   -6.0  BIFURCATION:4n/3h
+   3   32   -2.4  STACK:CG/GC    
+   4   31   -0.2  INTERIOR_LOOP:3/2
+   7   29   -2.4  STACK:GA/CU    
+   8   28   -2.2  STACK:AC/UG    
+   9   27   -1.2  INTERIOR_LOOP:3/2
+  12   25   -2.4  STACK:GA/CU    
+  13   24   -2.1  STACK:AG/UC    
+  14   23   -3.3  STACK:GG/CC    
+  15   22    4.4  HAIRPIN:GU/CC  
+  35   43   -2.1  STACK:CU/GA    
+  36   42    4.9  HAIRPIN:UG/AU  

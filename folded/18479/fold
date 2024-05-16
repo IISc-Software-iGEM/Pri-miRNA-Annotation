@@ -1,0 +1,10 @@
+   0   30   -5.1  STACK_DE:GC/CG 
+   1   29   -2.4  STACK:CG/GC    
+   2   28   -3.4  STACK:GC/CG    
+   3   27   -2.4  STACK:CG/GC    
+   4   26   -3.4  STACK:GC/CG    
+   5   25    3.6  BULGE:5        
+  10   24   -3.4  STACK:GC/CG    
+  11   23   -2.1  STACK:CCU/GAA  
+  13   21   -2.4  STACK:UC/AG    
+  14   20    4.3  HAIRPIN:CG/GA  

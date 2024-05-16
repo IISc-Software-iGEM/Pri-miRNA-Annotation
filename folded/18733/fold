@@ -1,0 +1,17 @@
+  18   80   -1.1  STACK:AU/UA    
+  19   79   -0.9  STACK:UGU/AAA  
+  21   77   -2.1  STACK:UG/AC    
+  22   76   -2.2  STACK:GU/CA    
+  23   75   -4.9  STACK:UGC/AUG  
+  25   73   -2.1  STACK:CU/GA    
+  26   72   -0.9  STACK:UU/AA    
+  27   71   -0.4  INTERIOR_LOOP:3/2
+  30   69   -2.1  STACK:AG/UC    
+  31   68   -1.5  BIFURCATION:6n/3h
+  34   52   -2.2  STACK:GU/CA    
+  35   51   -0.4  INTERIOR_LOOP:2/3
+  37   48   -2.1  STACK:CU/GA    
+  38   47   -0.9  STACK:UU/AA    
+  39   46    4.4  HAIRPIN:UA/AA  
+  57   66   -0.9  STACK:AA/UU    
+  58   65    4.6  HAIRPIN:AA/UA  
