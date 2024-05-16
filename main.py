@@ -1,5 +1,4 @@
 from seqfold import fold, dot_bracket
-import json
 import os
 import sys
 sys.setrecursionlimit(1000000)
@@ -66,17 +65,22 @@ while seq:
 rna_transcripts = [to_rna(transcript) for transcript in transcripts]
 
 i = 0
-for transcript in rna_transcripts:
-    folded_transcript = fold(transcript)
+for transcript in rna_transcripts:        
+    i += 1
+    
+    # skip if folded/{i} already exists
+    if os.path.exists(f"folded/{i}"):
+        continue
     
     # create a directory folded/{i}
     os.makedirs(f"folded/{i}", exist_ok=True)
     
+    print(f"Folding transcript {i}")
+    folded_transcript = fold(transcript)
+    
     # save to file folded/{i}/fold
     with open(f"folded/{i}/fold", "w") as f:
-        json.dump(folded_transcript, f)
+        f.write("\n".join([str(x) for x in folded_transcript]))
     
     with open(f"folded/{i}/seq", "w") as f:
         f.write(transcript)
-        
-    i += 1
